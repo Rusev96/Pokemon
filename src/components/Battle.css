@@ -1,0 +1,55 @@
+.logoBattle{
+    background-image: url("./asset/battlePokemon.png");
+    height: 400PX;
+    background-repeat: no-repeat;
+    margin-left: 32%;
+}
+.battle-container{
+    text-align: center;
+    margin-right: 5%;
+}
+.nameBar{
+    background-color: #385ba9;
+    color:  #ffcb05;
+    height: 25%;
+    border-radius: 20px 20px 0px 0px;
+    text-transform: uppercase;
+}
+.home-pokemon{
+    margin-top: 10%;
+    margin-right: 10%;
+    text-align: center;
+    width: 25%;
+}
+.away-pokemon{
+    margin-top: 10%;
+    text-align: center;
+    width: 25%;
+}
+
+.hp-bar{
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: green;
+    color: white;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.start{
+    background-color: #385ba9;
+    color: #ffcb05;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.try-again{
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.1%;
+}
+.general-battle-container{
+    background: url("./asset/battle.png") no-repeat;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

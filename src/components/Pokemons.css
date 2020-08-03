@@ -1,0 +1,30 @@
+.App{
+    background-image: url("./asset/backHome.jpg");
+    background-attachment: fixed;
+    background-position: center;
+}
+.logo{
+    background: url("./asset/logo.png");
+    height: 250PX;
+    background-repeat: no-repeat;
+    margin-left: 25%;
+}
+.current-pokemon{
+    background-image: url("./asset/faceCard.png");
+    height: auto;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    cursor: pointer;
+}
+.current-pokemon:hover {
+    background-image: url("./asset/backCard.png");
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    cursor: pointer;
+}
